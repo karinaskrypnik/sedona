@@ -1,0 +1,116 @@
+.main-header {
+  background: url(../img/bg-back-mobile@1x.jpg) no-repeat 0 0;
+  background-size: cover;
+  position: relative;
+  min-height: 440px;
+
+  @media #{$retina} {
+    background-image: url(../img/bg-back-mobile@2x.jpg) no-repeat 0 0;
+  }
+}
+
+.main-header--index {
+  background: url(../img/bg-back-mobile@1x.jpg) no-repeat 0 0;
+  background-size: cover;
+  position: relative;
+  min-height: 670px;
+
+  @media #{$retina} {
+    background-image: url(../img/bg-back-mobile@2x.jpg) no-repeat 0 0;
+  }
+  }
+
+.main-header__sedona {
+  width: 300px;
+  min-height: 350px;
+  display: block;
+  position: absolute;
+  top: 310px;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.main-header__text-sedona {
+  width: 310px;
+  height: 80px;
+  margin-top: 80px;
+  margin-left: 5px;
+}
+
+
+.main-header__title {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-header__logo {
+  position: absolute;
+  top: 218px;
+  right: 0px;
+  left: 0px;
+  margin: auto;
+}
+
+.main-header__triangle {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+
+@media #{$tablet-width} {
+
+.main-header {
+  min-height: 348px;
+}
+
+.main-header--index {
+  background-image: url(../img/bg-back-tablet@1x.jpg);
+  min-height: 575px;
+
+  @media #{$retina} {
+    background-image: url(../img/bg-back-tablet@2x.jpg);
+  }
+}
+
+.main-header__logo {
+  top: 0px;
+  z-index: 10;
+}
+
+.main-header__sedona {
+  top: 55px;
+}
+
+.main-header__text-sedona {
+  width: 460px;
+  position: absolute;
+  top: 155px;
+  right: 0px;
+  left: 0px;
+  margin: auto;
+}
+
+}
+
+
+@media #{$desktop-width} {
+
+.main-header {
+  min-height: 360px;
+}
+
+.main-header--index {
+  background-image: url(../img/bg-back-desktop@1x.jpg) no-repeat 0 0;
+  min-height: 565px;
+
+  @media #{$retina} {
+    background-image: url(../img/bg-back-desktop@2x.jpg);
+  }
+}
+
+}
+
+
+

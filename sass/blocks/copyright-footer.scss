@@ -1,0 +1,29 @@
+.page-footer__copyright {
+  margin-top: 17px;
+  padding-right: 15px;
+}
+
+@media #{$tablet-width} {
+
+.page-footer__copyright {
+  position: relative;
+  margin-top: 24px;
+  padding-right: 37px;
+}
+
+.copyright-footer__link {
+  position: absolute;
+  bottom: -18px;
+  left: 94px;
+}
+}
+
+@media #{$desktop-width} {
+
+.page-footer__copyright {
+  margin-top: 25px;
+  margin-right: 39px;
+}
+}
+
+

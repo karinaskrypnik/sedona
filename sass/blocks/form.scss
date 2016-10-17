@@ -1,0 +1,55 @@
+.form__fieldset {
+  border: none;
+}
+
+
+.form__submit {
+  width: 280px;
+  margin-left: 19px;
+  min-height: 58px;
+  background-color: $navyblue;
+  color: #fff;
+  font-size: $fsz-bigtitle;
+  border: none;
+  text-transform: uppercase;
+}
+
+
+@media #{$tablet-width} {
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.form__fieldset {
+  text-align: left;
+}
+
+.form__submit {
+  width: 324px;
+  height: 55px;
+  margin-bottom: 27px;
+  margin-left: 60px;
+}
+}
+
+
+@media #{$desktop-width} {
+
+.form {
+  width: 960px;
+}
+
+.form__fieldset {
+  margin: 0 auto;
+}
+
+.form__submit {
+  margin-left: 88px;
+}
+}
+
+
+

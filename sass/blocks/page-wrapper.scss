@@ -1,0 +1,21 @@
+.page-wrapper {
+  width: 320px;
+  margin: 0 auto;
+}
+
+@media #{$tablet-width} {
+.page-wrapper {
+  width: 768px;
+}
+}
+
+@media #{$desktop-width} {
+.page-wrapper {
+  width: 1200px;
+}
+}
+
+
+
+
+

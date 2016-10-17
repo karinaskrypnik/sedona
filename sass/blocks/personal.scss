@@ -1,0 +1,67 @@
+.personal {
+  height: 294px;
+}
+
+.personal__title {
+  margin-top: 20px;
+}
+
+.personal__textbox {
+  margin-top: 22px;
+  margin-bottom: 20px;
+}
+
+.personal__label {
+  margin-left: 9px;
+  margin-right: 17px;
+}
+
+.personal__input {
+  height: 56px;
+  width: 190px;
+  border: none;
+  background-color: lightgrey;
+}
+
+.personal__textbox--name input {
+  width: 226px;
+}
+
+
+@media #{$tablet-width} {
+
+.personal {
+  height: 255px;
+  margin-left: 100px;
+}
+
+.personal__title {
+  margin-top: -14px;
+}
+
+.personal__textbox {
+  margin-top: 50px;
+  margin-bottom: -42px;
+}
+
+.personal__input {
+  height: 37px;
+}
+}
+
+
+@media #{$desktop-width} {
+
+.personal {
+  margin-left: 118px;
+}
+
+.personal__input {
+  width: 303px;
+}
+
+.personal__textbox--name input {
+  width: 340px;
+}
+}
+

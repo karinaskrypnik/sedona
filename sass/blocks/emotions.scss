@@ -1,0 +1,51 @@
+.emotions {
+  height: 210px;
+  margin-bottom: 35px;
+}
+
+.emotions__title {
+  margin-top: 0px;
+  font-size: $fsz-title;
+  text-align: center;
+}
+
+.emotions__textarea {
+  width: 257px;
+  height: 140px;
+  margin-left: 10px;
+  padding-top: 19px;
+  padding-left: 17px;
+}
+
+
+@media #{$tablet-width} {
+
+.emotions {
+  width: 265px;
+  height: 257px;
+}
+
+.emotions__title {
+  margin-bottom: 56px;
+  font-size: $fsz-title;
+}
+
+.emotions__textarea {
+  width: 648px;
+  margin-left: 49px;
+  outline: 1px solid #e9e9e9;
+}
+}
+
+
+@media #{$desktop-width} {
+
+.emotions {
+  width: 100%;
+}
+
+.emotions__textarea {
+  width: 775px;
+  margin-left: 80px;
+}
+}

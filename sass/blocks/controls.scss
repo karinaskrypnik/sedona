@@ -1,0 +1,78 @@
+.controls {
+  width: 280px;
+  min-height: 67px;
+  position: absolute;
+  bottom: -63px;
+  right: 0px;
+  left: 0px;
+  margin: auto;
+  background-color: #000;
+  opacity: 0.4;
+  }
+
+
+@media #{$tablet-width} {
+
+.controls {
+  position: relative;
+  width: 648px;
+  bottom: 4px;
+}
+
+.controls__range {
+  width: 390px;
+  position: relative;
+  top: 12px;
+  right: 36px;
+}
+
+.controls__button {
+  border: none;
+}
+
+.controls__button--reload {
+  position: absolute;
+  top: 10px;
+  left: 28px;
+}
+
+.controls__button--subtitles {
+  position: absolute;
+  top: 10px;
+  right: 90px;
+}
+
+.controls__button--full {
+  position: absolute;
+  top: 10px;
+  right: 34px;
+}
+}
+
+
+@media #{$desktop-width} {
+
+.controls {
+  min-height: 93px;
+  width: 800px;
+  bottom: 96px;
+}
+
+.controls__range {
+  width: 540px;
+  top: 40px;
+  right: 37px;
+}
+
+.controls__button--reload {
+  top: 36px;
+}
+
+.controls__button--subtitles {
+  top: 36px;
+}
+
+.controls__button--full {
+  top: 36px;
+}
+}

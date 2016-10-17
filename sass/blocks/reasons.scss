@@ -1,0 +1,262 @@
+.reasons {
+  text-align: center;
+}
+
+.reasons__intro {
+  width: 300px;
+  min-height: 200px;
+}
+
+.reasons__intro h2 {
+  margin-top: 39px;
+  margin-bottom: 25px;
+  margin-left: 23px;
+  font-size: $fsz-title;
+  line-height: 1.4;
+}
+
+.reasons__intro p {
+  margin-top: 30px;
+  margin-left: 18px;
+  line-height: 1.8;
+}
+
+.reasons__title {
+  width: 100%;
+  margin-top: 21px;
+  font-size: $fsz-title;
+}
+
+.reasons__text {
+  color: $text-color;
+}
+
+.reasons__list {
+  padding: 0px;
+  margin: 0px;
+}
+
+.item-reason--first {
+  min-height: 885px;
+  color: #fff;
+}
+
+.item-reason__wrap {
+  min-height: 488px;
+  background: url(../img/photo-city-mobile@1x.jpg) no-repeat bottom;
+  background-color: $navyblue;
+  background-size: 330px;
+
+  @media #{$retina} {
+    background-image: url(../img/photo-city-mobile@2x.jpg) no-repeat bottom;
+  }
+}
+
+.item-reason__title {
+  padding-top: 35px;
+  padding-bottom: 20px;
+  margin: 0px;
+}
+
+.item-reason__descr {
+  width: 260px;
+  margin: 0 auto;
+  margin-top: 18px;
+  text-align: center;
+}
+
+
+.item-reason--second {
+  min-height: 457px;
+  background: url(../img/photo-bridge@1x.jpg) no-repeat bottom;
+  background-color: $navyblue;
+  background-size: 523px;
+  color: #fff;
+
+  @media #{$retina} {
+    background-image: url(../img/photo-bridge@1x.jpg) no-repeat bottom;
+  }
+}
+
+.reasons__item {
+  min-height: 164px;
+  padding-top: 3px;
+  background-color: $grey;
+  list-style: none;
+  border-bottom: 1px solid #d6d6d6;
+  line-height: 1.5;
+}
+
+.reasons__descr {
+  width: 250px;
+  padding-left: 34px;
+  margin-top: 23px;
+  text-align: center;
+}
+
+
+@media #{$tablet-width} {
+
+.reasons__intro {
+  width: 100%;
+  min-height: 144px;
+  margin-top: 25px;
+  padding-right: 16px;
+}
+
+.reasons__intro h2 {
+  margin-top: 47px;
+  margin-left: 0px;
+  font-size: $fsz-bigtitle;
+}
+
+.reasons__intro p {
+  margin-top: 27px;
+}
+
+.item-reason--first {
+  min-height: 578px;
+}
+
+.item-reason__wrap {
+  min-height: 249px;
+  background: url(../img/photo-city-tablet@1x.jpg) no-repeat right;
+  background-color: $navyblue;
+
+  @media #{$retina} {
+    background-image: url(../img/photo-city-tablet@2x.jpg) no-repeat right;
+  }
+}
+
+.item-reason__triangle {
+  display: none;
+}
+
+.item-reason__title {
+  width: 125px;
+  padding-top: 44px;
+  margin-left: 66px;
+  font-size: $fsz-bigtitle;
+}
+
+.item-reason__descr {
+  width: 167px;
+  margin-left: 46px;
+  margin-top: 30px;
+  line-height: 1.5;
+}
+
+.item-reason--second {
+  min-height: 249px;
+  background: url(../img/photo-bridge-tablet@1x.jpg) no-repeat left;
+  background-color: $navyblue;
+  background-size: 510px;
+
+  @media #{$retina} {
+    background-image: url(../img/photo-bridge-tablet@2x.jpg) no-repeat left;
+  }
+}
+
+.item-reason--second h3 {
+  padding-top: 15px;
+  margin-left: auto;
+  margin-right: 67px;
+}
+
+.item-reason--second p {
+  margin-top: 2px;
+  margin-right: 50px;
+  margin-left: auto;
+}
+
+.reasons__item {
+  width: 33.3%;
+  display: block;
+  float: left;
+  border: none;
+}
+
+.reasons__title {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 38px;
+  font-size: $fsz-bigtitle;
+  line-height: 1.3;
+}
+
+.reasons__descr {
+  width: 178px;
+  padding-left: 36px;
+  margin-top: 32px;
+}
+
+.reasons:after {
+  @include clearfix;
+}
+
+.item-reason--second:before {
+  @include clearfix;
+}
+}
+
+
+@media #{$desktop-width} {
+
+.reasons__intro {
+  min-height: 144px;
+}
+
+.reasons__intro h2 {
+  margin-top: 57px;
+}
+
+.item-reason__wrap {
+  min-height: 258px;
+  background: url(../img/photo-city@1x.jpg) no-repeat right;
+  background-color: $navyblue;
+
+  @media #{$retina} {
+    background-image: url(../img/photo-city@2x.jpg) no-repeat right;
+  }
+
+}
+
+.item-reason__title {
+  padding-left: 74px;
+  padding-top: 49px;
+  margin-top: 13px;
+}
+
+.item-reason__descr {
+  width: 281px;
+  margin-left: 60px;
+}
+
+.item-reason--second {
+  background: url(../img/photo-bridge@1x.jpg) no-repeat left;
+  background-color: $navyblue;
+  background-size: 800px;
+  min-height: 255px;
+
+  @media #{$retina} {
+    background-image: url(../img/photo-bridge@1x.jpg) no-repeat left;
+  }
+}
+
+.item-reason--second h3 {
+  width: 171px;
+  margin-right: 103px;
+}
+
+.reasons__subtitle {
+  margin-top: 38px;
+}
+
+.reasons__descr {
+  width: 262px;
+  padding-left: 72px;
+}
+}
+
+
+

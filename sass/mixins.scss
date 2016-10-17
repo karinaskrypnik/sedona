@@ -1,0 +1,11 @@
+
+@mixin clearfix {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+@mixin left-align {
+  text-align: left;
+  margin-left: 30px;
+}

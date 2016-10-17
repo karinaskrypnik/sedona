@@ -1,0 +1,50 @@
+.feedback__intro {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.feedback__title {
+  margin-top: 36px;
+  font-size: $fsz-title;
+}
+
+.feedback__text {
+  margin-top: 31px;
+  line-height: 1.7;
+  color: $text-color;
+}
+
+
+@media #{$tablet-width} {
+
+.feedback__intro {
+  margin-top: 65px;
+  margin-bottom: 87px;
+}
+
+.feedback__text {
+  width: 447px;
+  margin: 0 auto;
+}
+
+.feedback__title {
+  font-size: $fsz-tablettitle;
+}
+}
+
+@media #{$desktop-width} {
+
+
+.feedback__intro {
+  margin-bottom: 72px;
+}
+
+.feedback__title {
+  padding-top: 35px;
+}
+}
+
+
+
+
+

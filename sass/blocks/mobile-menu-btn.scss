@@ -1,0 +1,16 @@
+.nav__toggle {
+  position: absolute;
+  top: 217;
+  right: 20px;
+  width: 25px;
+  height: 24px;
+  border: none;
+  background: url(../img/icon-menu.svg) no-repeat 0 0;
+}
+
+
+@media #{$tablet-width} {
+.nav__toggle {
+  display: none;
+  }
+}

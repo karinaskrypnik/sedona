@@ -1,0 +1,35 @@
+.player {
+  margin: 0 auto;
+  position: relative;
+  margin-top: 35px;
+}
+
+.player__video {
+  width: 320px;
+  height: 205px;
+}
+
+@media #{$tablet-width} {
+
+.player {
+  margin-top: 10px;
+  min-height: 457px;
+}
+
+.player__video {
+  width: 648px;
+  height: 499px;
+}
+}
+
+@media #{$desktop-width} {
+
+.player {
+  margin-top: 74px;
+  }
+
+.player__video {
+  width: 800px;
+  height: 500px;
+}
+}
